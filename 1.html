@@ -4,62 +4,75 @@
   <title>현희's 맛집 탐색기</title>
   <meta charset="utf-8">
   <style>
-  h1 {
-    font-size: 60px;
-    text-align: center;
+    h1 {
+      font-size: 60px;
+      text-align: center;
+      border-bottom: 1px solid gray;
+      margin: 0;
+      padding: 20px;
     }
-  h2 {
-    color : green;
-  }
-  body {
-    text-align: center;
-  }
-  ul {
-    text-align: left;
-  }
-  a {
-    color : black;
-  }
-  #now {
-    color : red;
-  }
-  .saw {
-    color : gray;
-  }
+    ul {
+      border-right: 1px solid gray;
+      width: 200px;
+      margin: 0;
+      padding: 25px;
+    }
+    body {
+      margin: 0px;
+    }
+    a {
+      color : black;
+    }
+    #now {
+      color : red;
+    }
+    #grid {
+      display: grid;
+      grid-template-columns: 300px 1fr;
+    }
   </style>
-  </head>
+</head>
 <body>
-<h1><a href="index.html">맛집목록</a></h1>
-<ul>
-  <ol>
-    <li><a href="1.html" title="미쉐린맛집 삼청동수제비" id="now">삼청동 수제비</li></a>
-    <li><a href="2.html" title="인사동맛집 오레노라멘">오레노라멘</li></a>
-    <li><a href="3.html" title="안암전통 유자유김치떡볶이">유자유김치떡볶이</li></a>
-    <li><a href="4.html" title="미쉐린맛집 충무로쭈꾸미불고기">충무로 쭈꾸미 불고기</li></a>
-  <ol>
-</ul>
-<h2><br><br>삼청동 수제비</h2>
-<p>항아리에 담겨 나오는 수제비.<br>
-  맛있는 배추김치와 열무김치.<br>
-  진하고 시원한 육수와 손으로 빚은듯한 쫄깃한 수제비.
-</p>
-<p><a href="https://blog.naver.com/baegopau10002/221837036224" target="_blank" title="삼청동수제비 블로그 후기">
-  자세한 후기가 궁금하다면 클릭!</a></p>
-<img src="수제비.jpg"width="700px;">
+  <h1><a href="index.html">맛집목록</a></h1>
+  <div id="grid">
+    <ul>
+      <ol>
+        <li><a href="1.html" title="미쉐린맛집 삼청동수제비" id="now">삼청동 수제비</li></a>
+        <li><a href="2.html" title="인사동맛집 오레노라멘">오레노라멘</li></a>
+        <li><a href="3.html" title="안암전통 유자유김치떡볶이">유자유김치떡볶이</li></a>
+        <li><a href="4.html" title="미쉐린맛집 충무로쭈꾸미불고기">충무로 쭈꾸미 불고기</li></a>
+      <ol>
+    </ul>
+    <div>
+      <h2>삼청동 수제비</h2>
+      <p>항아리에 담겨 나오는 수제비.<br>
+        맛있는 배추김치와 열무김치.<br>
+        진하고 시원한 육수와 손으로 빚은듯한 쫄깃한 수제비.
+      </p>
+      <p><a href="https://blog.naver.com/baegopau10002/221837036224" target="_blank" title="삼청동수제비 블로그 후기">
+        자세한 후기가 궁금하다면 클릭!</a></p>
+      <img src="수제비.jpg"width="700px;">
+    </div>
+  </div>
+  <br><br><div style="border:1px solid gray"><p style="text-align: center">
+    궁금하신 점이 있다면 언제든지 오른쪽 하단 채팅 버튼을 눌러 문의해주세요.<br>
+    실시간 채팅 가능 시간은 평일 9:30 ~ 18:30 입니다.<br>
+    그 외 시간에는 이메일과 문의내용을 남겨주시면 빠른 시일내에 답변 드리도록 하겠습니다.
+  </p></div>
 
-<!--Start of Tawk.to Script-->
-<script type="text/javascript">
-var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-(function(){
-var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-s1.async=true;
-s1.src='https://embed.tawk.to/602f56129c4f165d47c4d9c1/1eusegecd';
-s1.charset='UTF-8';
-s1.setAttribute('crossorigin','*');
-s0.parentNode.insertBefore(s1,s0);
-})();
-</script>
-<!--End of Tawk.to Script-->
+  <!--Start of Tawk.to Script-->
+  <script type="text/javascript">
+  var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+  (function(){
+  var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+  s1.async=true;
+  s1.src='https://embed.tawk.to/602f56129c4f165d47c4d9c1/1eusegecd';
+  s1.charset='UTF-8';
+  s1.setAttribute('crossorigin','*');
+  s0.parentNode.insertBefore(s1,s0);
+  })();
+  </script>
+  <!--End of Tawk.to Script-->
 
 </body>
 </html>
