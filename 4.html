@@ -3,33 +3,7 @@
 <head>
   <title>현희's 맛집 탐색기</title>
   <meta charset="utf-8">
-  <style>
-    h1 {
-      font-size: 60px;
-      text-align: center;
-      border-bottom: 1px solid gray;
-      margin: 0;
-      padding: 20px;
-    }
-    ul {
-      border-right: 1px solid gray;
-      width: 200px;
-      margin: 0;
-      padding: 25px;
-    }
-    body {
-      margin: 0px;
-    }
-    a {
-      color : black;
-    }
-    #now {
-      color : red;
-    }
-    #grid {
-      display: grid;
-      grid-template-columns: 300px 1fr;
-    }
+  <link rel="stylesheet" href="style.css">
   </style>
 </head>
 <body>
@@ -54,11 +28,11 @@
       <img src="쭈꾸미.jpg"width="700px;">
     </div>
   </div>
-  <br><br><div style="border:1px solid gray"><p style="text-align: center">
+  <br><br><div id="chat" class="chatbox">
     궁금하신 점이 있다면 언제든지 오른쪽 하단 채팅 버튼을 눌러 문의해주세요.<br>
     실시간 채팅 가능 시간은 평일 9:30 ~ 18:30 입니다.<br>
     그 외 시간에는 이메일과 문의내용을 남겨주시면 빠른 시일내에 답변 드리도록 하겠습니다.
-  </p></div>
+  </div>
 
   <!--Start of Tawk.to Script-->
   <script type="text/javascript">

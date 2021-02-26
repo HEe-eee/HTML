@@ -1,0 +1,49 @@
+h1 {
+  font-size: 60px;
+  text-align: center;
+  border-bottom: 1px solid gray;
+  margin: 0;
+  padding: 20px;
+}
+h2 {
+  font-size: 40px;
+  color: green;
+}
+#grid {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+}
+#grid ul {
+  border-right: 1px solid gray;
+  width: 200px;
+  margin: 0;
+  padding: 25px;
+}
+body {
+  margin: 0px;
+}
+a {
+  color : black;
+}
+#now {
+  color : red;
+}
+#chat {
+  border: 3px solid gray;
+}
+.chatbox {
+  display: table;
+  margin: auto;
+  text-align: center;
+}
+@media(max-width: 700px) {
+ #grid {
+   display: block;
+ }
+ #grid ul {
+   border-right: none;
+ }
+ h1 {
+   border-bottom: none;
+ }
+}
